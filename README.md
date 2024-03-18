@@ -4,8 +4,10 @@
 
 The aim of this project is to have a barebone example of a project done with Quarkus as a java toolkit to start its understanding.
 It is based on udemy course (see references) and the current high level architecture is
-![](../../../../../var/folders/m3/sq8ndrnx4qsfhyq51wztyrz80000gn/T/TemporaryItems/NSIRD_screencaptureui_PmYG1Y/Screenshot 2024-03-18 at 13.10.52.png)
+![Architecture](https://github.com/bmg13/Quarkus-Service-Example/assets/18561736/9acdf130-0b5f-40e2-9e35-17562f81cdfd)
+
 This service contains a simple controller, following REST and responding with dummy data. Potential additions over time may be expected in this project.
+
 
 
 ## Bootstrap
@@ -26,7 +28,7 @@ bootstrap it
 
 ```sh ./bootstrap.sh```
 that (after all the downloads) should print something similar to
-![](../../../../../var/folders/m3/sq8ndrnx4qsfhyq51wztyrz80000gn/T/TemporaryItems/NSIRD_screencaptureui_GeMA7S/Screenshot 2024-03-18 at 10.26.47.png)
+![Bootstrap Terminal](https://github.com/bmg13/Quarkus-Service-Example/assets/18561736/bedb197d-bea4-4394-b751-490ce86d22c0)
 
 > Note: In order to use CDI with Quarkus, the better usage would be using ARC
 > ```
@@ -45,7 +47,7 @@ To run the application in dev mode (only mode with Hot Reload) simply run
 this starts Quarkus at ***localhost:8080***
 
 > to use the Dev UI (dev mode only) http://localhost:8080/q/dev/.
-![](../../../../../var/folders/m3/sq8ndrnx4qsfhyq51wztyrz80000gn/T/TemporaryItems/NSIRD_screencaptureui_4vEDZV/Screenshot 2024-03-18 at 12.05.32.png)
+![Dev UI](https://github.com/bmg13/Quarkus-Service-Example/assets/18561736/45abc27b-6de9-48e7-9e75-8ab1a890cc3b)
 
 
 
@@ -84,7 +86,7 @@ Once having the docker running locally, run
 ```
 ensure image is created
 
-![](../../../../../var/folders/m3/sq8ndrnx4qsfhyq51wztyrz80000gn/T/TemporaryItems/NSIRD_screencaptureui_aj28HZ/Screenshot 2024-03-18 at 12.49.02.png)
+![docker list](https://github.com/bmg13/Quarkus-Service-Example/assets/18561736/26f44c6e-36fe-4885-b212-5c4640156aae)
 
 finally, run with docker
 ```
