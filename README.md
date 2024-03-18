@@ -121,7 +121,7 @@ mvn test
 ```
 to run the tests.
 
-## Profiling
+## Profiles
 
 As expected, Quarkus enables profiling and even eases the definition of a property value based on the profile, as example (in application.properties)
 
