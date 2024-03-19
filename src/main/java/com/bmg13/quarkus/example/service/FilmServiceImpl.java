@@ -12,7 +12,7 @@ import java.util.UUID;
 public class FilmServiceImpl implements FilmService {
 
     // mocked data for testing purposes
-    @ConfigProperty(name = "film.language")
+    @ConfigProperty(name = "film.language", defaultValue = "English")
     private String language;
 
     private final List<Film> initialFilms = List.of(
