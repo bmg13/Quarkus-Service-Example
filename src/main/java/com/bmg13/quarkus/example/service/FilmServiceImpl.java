@@ -27,7 +27,7 @@ public class FilmServiceImpl implements FilmService {
 
     @Override
     public Optional<Film> getFilmByTitle(String title) {
-        return initialFilms.stream().filter(f -> f.getTitle().equalsIgnoreCase(title)).findFirst();
+        return initialFilms.stream().filter(f -> f.title().equalsIgnoreCase(title)).findFirst();
     }
 
     @Override
